@@ -21,7 +21,7 @@
 /* this is the second part to radial status*/
 @import url('https://sockzy.github.io/BD-CustomCSS/Font.css');
 /*this import is the font*/
-@import url('');
+@import url('https://sockzy.github.io/BD-CustomCSS/Background.css');
 /*this is the background. changeable by copy and pasting the code in this file */
 :root {
   --rs-small-spacing: 2px;  /* spacing between avatar and status */
