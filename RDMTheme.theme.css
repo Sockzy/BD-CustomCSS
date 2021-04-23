@@ -1,16 +1,24 @@
-*/ Hello this theme is a mashup of radiail status, member list hide, and a cursor the barly functions. You can add or turn off any of the code by doing "*/"
-*/ none of this is my code and i have no ownership of any of what you will see below./*
+/**
+ * @name         RDMTheme
+ * @description  A random theme and none of it is my code
+ * @author       Sockzy
+ * @version      1.5
+ * @source       https://sockzy.github.io/BD-CustomCSS/RDMTheme.css
+ * @invite       
+ * @authorId     
+ */
 
 
-*/ this first import is the cursor/*
+
+/* Hello this theme is a mashup of radiail status, member list hide, and a cursor the barly functions. You can add or turn off any of the code by doing "/*"
+/* none of this is my code and i have no ownership of any of what you will see below./*
+/* this first import is the cursor*/
 @import url('https://sockzy.github.io/BD-CustomCSS/cursor.css');
-*/ next import is the radial status( there is also a second part of this code with will be under everthing.)/*
+/* next import is the radial status( there is also a second part of this code with will be under everthing.)*/
 @import url('https://sockzy.github.io/BD-CustomCSS/Rimport.css');
-*/ next import is member list hide/*
+/* next import is member list hide*/
 @import url('https://sockzy.github.io/BD-CustomCSS/list%20hide.css');
-
-
-*/ this is the second part to radial status/*
+/* this is the second part to radial status*/
 :root {
   --rs-small-spacing: 2px;  /* spacing between avatar and status */
   --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles */
@@ -23,4 +31,4 @@
   --rs-streaming-color: #643da7;  /* color for streaming status */
   --rs-invisible-color: #636b75;  /* color for invisible status - Note this will only show for your own invisibility */
 }
-*/ if you want to use this do "@import url('https://sockzy.github.io/BD-CustomCSS/RDMTheme.css');" /*
+/* if you want to use this copy and paste this into a custom css or a .theme.css file (DM 𝑆ockzy#3458 on discord for the file)  */
