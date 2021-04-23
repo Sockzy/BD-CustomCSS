@@ -2,7 +2,7 @@
  * @name         RDMTheme
  * @description  A random theme and none of it is my code
  * @author       Sockzy
- * @version      1.0
+ * @version      1.1
  * @source       https://sockzy.github.io/BD-CustomCSS/RDMTheme.css
  * @invite       
  * @authorId     
@@ -13,17 +13,21 @@
 /* Hello this theme is a mashup of radiail status, member list hide, and a cursor the barly functions. You can add or turn off any of the code by doing "/*"
 /* none of this is my code and i have no ownership of any of what you will see below./*
 /* this first import is the cursor*/
-@import url('https://sockzy.github.io/BD-CustomCSS/cursor.css');
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Cursor.css');
 /* next import is the radial status( there is also a second part of this code with will be under everthing.)*/
 @import url('https://sockzy.github.io/BD-CustomCSS/Rimport.css');
 /* next import is member list hide*/
 @import url('https://sockzy.github.io/BD-CustomCSS/list%20hide.css');
 /* this is the second part to radial status*/
+@import url('https://sockzy.github.io/BD-CustomCSS/Font.css');
+/*this import is the font*/
+
+
 :root {
   --rs-small-spacing: 2px;  /* spacing between avatar and status */
   --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles */
   --rs-width: 2px;  /* Width/thickness of status border */
-  --rs-avatar-shape: 3%;  /* 50% for round - 0% for square */
+  --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
   --rs-online-color: #43b581;  /* color for online status */
   --rs-idle-color: #faa61a;  /* color for idle status */
   --rs-dnd-color: #f04747;  /* color for dnd status */
